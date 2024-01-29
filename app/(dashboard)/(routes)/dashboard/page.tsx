@@ -1,6 +1,6 @@
 const Page = () => {
   return ( 
-    <div>hello</div>
+    <div>Dashboard, only seen if signed in</div>
    );
 }
  
