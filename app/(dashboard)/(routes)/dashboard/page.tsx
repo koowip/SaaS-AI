@@ -1,6 +1,11 @@
+import { UserButton } from "@clerk/nextjs";
+
 const Page = () => {
   return ( 
-    <div>Dashboard, only seen if signed in</div>
+    <div>
+      <div>Dashboard, only seen if signed in</div>
+      <UserButton afterSignOutUrl="/"/>
+    </div>
    );
 }
  
